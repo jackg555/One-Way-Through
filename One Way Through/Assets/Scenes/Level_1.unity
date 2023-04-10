@@ -558,6 +558,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4465739345804961293, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7cea83fde582a6947aabe5af63c16453, type: 2}
     - target: {fileID: 4465739345804961295, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_Name
       value: gameBall
