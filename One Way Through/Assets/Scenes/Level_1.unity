@@ -965,7 +965,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_Drag
-      value: 0.5
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_AngularDrag
@@ -3159,7 +3159,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 145995834128e364a93b326906c3bebe, type: 2}
+  - {fileID: 2100000, guid: a86f99f8608603840abf00103a0e5726, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
