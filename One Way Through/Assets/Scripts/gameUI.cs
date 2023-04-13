@@ -9,12 +9,13 @@ public class gameUI : MonoBehaviour
     public GameObject pauseMenuUi;
     public GameObject pauseButton;
     public GameObject restartButton;
-    public GameObject controls;
+    public GameObject displayMessage;
+    public GameObject levelTitle;
 
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(controls, 4);
+        Destroy(displayMessage, 4);
     }
 
     // Update is called once per frame
@@ -38,6 +39,7 @@ public class gameUI : MonoBehaviour
         pauseMenuUi.SetActive(false);
         pauseButton.SetActive(true);
         restartButton.SetActive(true);
+        levelTitle.SetActive(true);
         Time.timeScale = 1f;
         gameIsPaused = false;
     }
@@ -47,6 +49,7 @@ public class gameUI : MonoBehaviour
         pauseMenuUi.SetActive(true);
         pauseButton.SetActive(false);
         restartButton.SetActive(false);
+        levelTitle.SetActive(false);
         Time.timeScale = 0f;
         gameIsPaused = true;
     }
