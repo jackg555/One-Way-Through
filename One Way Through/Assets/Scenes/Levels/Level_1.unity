@@ -1068,11 +1068,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_Drag
-      value: 0.1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
+      propertyPath: m_Mass
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_AngularDrag
-      value: 0.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_IsKinematic
@@ -1142,6 +1146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gameBall
       objectReference: {fileID: 0}
+    - target: {fileID: 4465739345804961295, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -5496296501274437684, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
@@ -1173,7 +1181,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421689646}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.8, z: 0}
+  m_LocalPosition: {x: 0, y: 3.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1955,7 +1963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiltSpeed: 3
-  tiltAngle: 25
+  tiltAngle: 20
 --- !u!54 &781193345
 Rigidbody:
   m_ObjectHideFlags: 0

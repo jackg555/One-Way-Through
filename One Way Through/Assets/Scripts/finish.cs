@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class finish : MonoBehaviour
 {
-    void OnTriggerEnter(Collider gameBall)
+    void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        Debug.Log("Finished");
+        if (other.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            Debug.Log("Finished");
+        }
     }
 }

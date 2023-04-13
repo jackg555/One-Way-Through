@@ -6,8 +6,11 @@ public class gotKey : MonoBehaviour
 {
     public GameObject lockAndKey;
 
-    void OnTriggerEnter(Collider gameBall)
+    void OnTriggerEnter(Collider other)
     {
-        Destroy(lockAndKey);
+        if (other.CompareTag("Player"))
+        {
+            Destroy(lockAndKey);
+        }
     }
 }

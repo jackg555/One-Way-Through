@@ -1323,11 +1323,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_Drag
-      value: 0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_AngularDrag
-      value: 0.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_CollisionDetection
@@ -1397,8 +1397,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: gameBall
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: -5496296501274437684, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
+    - target: {fileID: 4465739345804961295, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
 --- !u!1 &455642909
 GameObject:
@@ -5302,7 +5305,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1542077852
 MonoBehaviour:
   m_ObjectHideFlags: 0

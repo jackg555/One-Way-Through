@@ -9,8 +9,11 @@ public class portal : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        ball.GetComponent<Rigidbody>().velocity *= -1;
-        ball.GetComponent<Rigidbody>().angularVelocity *= -1;
-        ball.transform.position = spawnPoint.transform.position;
+        if (other.CompareTag("Player"))
+        {
+            ball.GetComponent<Rigidbody>().velocity *= -1;
+            ball.GetComponent<Rigidbody>().angularVelocity *= -1;
+            ball.transform.position = spawnPoint.transform.position;
+        }
     }
 }

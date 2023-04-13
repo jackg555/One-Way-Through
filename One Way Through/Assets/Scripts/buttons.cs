@@ -13,17 +13,20 @@ public class buttons : MonoBehaviour
         //door2.SetActive(false);
     }
 
-    void OnTriggerEnter(Collider gameBall)
+    void OnTriggerEnter(Collider other)
     {
-        if (door1.active)
+        if (other.CompareTag("Player"))
         {
-            door1.SetActive(false);
-            door2.SetActive(true);
-        }
-        else
-        {
-            door1.SetActive(true);
-            door2.SetActive(false);
+            if (door1.active)
+            {
+                door1.SetActive(false);
+                door2.SetActive(true);
+            }
+            else
+            {
+                door1.SetActive(true);
+                door2.SetActive(false);
+            }
         }
     }
 }
