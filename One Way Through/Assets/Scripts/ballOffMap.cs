@@ -6,13 +6,21 @@ using UnityEngine.SceneManagement;
 public class ballOffMap : MonoBehaviour
 {
     public int respawnHeight = -5;
+    gameUI gameOver;
+    bool hasRun = false;
+
+    void Start()
+    {
+        gameOver = GameObject.FindGameObjectWithTag("Canvas").GetComponent<gameUI>();
+    }
 
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < respawnHeight)
+        if (transform.position.y < respawnHeight && !hasRun)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            gameOver.GameOver();
+            hasRun = true;
         }
     }
 }

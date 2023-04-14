@@ -7,6 +7,7 @@ public class gameUI : MonoBehaviour
 {
     public static bool gameIsPaused = false;
     public GameObject pauseMenuUi;
+    public GameObject gameOverUi;
     public GameObject pauseButton;
     public GameObject restartButton;
     public GameObject displayMessage;
@@ -66,5 +67,15 @@ public class gameUI : MonoBehaviour
         Time.timeScale = 1f;
         gameIsPaused = false;
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void GameOver()
+    {
+        gameOverUi.SetActive(true);
+        pauseButton.SetActive(false);
+        restartButton.SetActive(false);
+        levelTitle.SetActive(false);
+        Time.timeScale = 0f;
+        gameIsPaused = true;
     }
 }
