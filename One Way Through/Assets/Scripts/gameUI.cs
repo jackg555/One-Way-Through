@@ -8,9 +8,10 @@ public class gameUI : MonoBehaviour
     public static bool gameIsPaused = false;
     public GameObject pauseMenuUi;
     public GameObject gameOverUi;
+    public GameObject levelCompleteUi;
     public GameObject pauseButton;
     public GameObject restartButton;
-    public GameObject displayMessage;
+    public GameObject displayMessage = null;
     public GameObject levelTitle;
 
     // Start is called before the first frame update
@@ -77,5 +78,19 @@ public class gameUI : MonoBehaviour
         levelTitle.SetActive(false);
         Time.timeScale = 0f;
         gameIsPaused = true;
+    }
+
+    public void LevelComplete()
+    {
+        levelCompleteUi.SetActive(true);
+        pauseButton.SetActive(false);
+        restartButton.SetActive(false);
+        levelTitle.SetActive(false);
+        Time.timeScale = 0f;
+        gameIsPaused = true;
+    }
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
