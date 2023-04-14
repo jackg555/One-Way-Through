@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class portal : MonoBehaviour
 {
+    public bool changeVelocity = false;
     public GameObject ball;
     public Transform spawnPoint;
 
@@ -11,8 +12,11 @@ public class portal : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            ball.GetComponent<Rigidbody>().velocity *= -1;
-            ball.GetComponent<Rigidbody>().angularVelocity *= -1;
+            if(changeVelocity == true)
+            {
+                ball.GetComponent<Rigidbody>().velocity *= -1;
+                ball.GetComponent<Rigidbody>().angularVelocity *= -1;
+            }
             ball.transform.position = spawnPoint.transform.position;
         }
     }

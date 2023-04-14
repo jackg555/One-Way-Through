@@ -1338,6 +1338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c466c4c313e1ce4c8f4521471ab379a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  changeVelocity: 1
   ball: {fileID: 550617877}
   spawnPoint: {fileID: 2134641840}
 --- !u!1 &346366607
@@ -1719,6 +1720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c466c4c313e1ce4c8f4521471ab379a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  changeVelocity: 1
   ball: {fileID: 550617877}
   spawnPoint: {fileID: 1687993093}
 --- !u!1 &393691590
@@ -1941,7 +1943,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 7cea83fde582a6947aabe5af63c16453, type: 2}
     - target: {fileID: 4465739345804961295, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_Name
-      value: gameBall
+      value: GameBall
       objectReference: {fileID: 0}
     - target: {fileID: 4465739345804961295, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_TagString
@@ -3560,7 +3562,7 @@ GameObject:
   - component: {fileID: 781193344}
   - component: {fileID: 781193345}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: GameBoard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3928,7 +3930,7 @@ GameObject:
   m_Component:
   - component: {fileID: 919818004}
   m_Layer: 0
-  m_Name: lockAndKey
+  m_Name: Lock&Key
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
