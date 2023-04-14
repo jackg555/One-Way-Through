@@ -91,6 +91,8 @@ public class gameUI : MonoBehaviour
     }
     public void NextLevel()
     {
+        Time.timeScale = 1f;
+        gameIsPaused = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

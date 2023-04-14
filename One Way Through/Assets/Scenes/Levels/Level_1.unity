@@ -1345,15 +1345,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_Mass
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_AngularDrag
-      value: 0
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_IsKinematic
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4465739345804961288, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4465739345804961291, guid: 553be18b6f4ebb54abeb473a11f8fd4b, type: 3}
       propertyPath: m_RootOrder
@@ -1885,7 +1889,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a21f2d80b26620642a0ba825b632be4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnHeight: -5
 --- !u!1 &656447683
 GameObject:
   m_ObjectHideFlags: 0
@@ -2370,7 +2373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiltSpeed: 3
-  tiltAngle: 20
+  tiltAngle: 25
 --- !u!54 &781193345
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2386,7 +2389,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!1 &802378272
 GameObject:
   m_ObjectHideFlags: 0

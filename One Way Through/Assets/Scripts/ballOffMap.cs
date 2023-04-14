@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ballOffMap : MonoBehaviour
 {
-    public int respawnHeight = -5;
+    int respawnHeight = -10;
     gameUI gameOver;
     bool hasRun = false;
 
