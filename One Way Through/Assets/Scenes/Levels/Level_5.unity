@@ -3807,7 +3807,7 @@ GameObject:
   - component: {fileID: 828333375}
   - component: {fileID: 828333374}
   m_Layer: 0
-  m_Name: WallRigh1
+  m_Name: WallRight1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
