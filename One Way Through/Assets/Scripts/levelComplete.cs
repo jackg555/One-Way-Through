@@ -13,6 +13,7 @@ public class levelComplete : MonoBehaviour
         levelCompleted = GameObject.FindGameObjectWithTag("Canvas").GetComponent<gameUI>();
     }
 
+    //when the player reaches the end of the level it calls the "levelComplete" function in the "gameUI" script
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))

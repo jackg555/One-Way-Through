@@ -14,9 +14,9 @@ public class ballOffMap : MonoBehaviour
         gameOver = GameObject.FindGameObjectWithTag("Canvas").GetComponent<gameUI>();
     }
 
-    // Update is called once per frame
     void Update()
     {
+        //when the ball falls off the board the game calls the "gaveOver" function in the "gameUI" script
         if (transform.position.y < respawnHeight && !hasRun)
         {
             gameOver.GameOver();

@@ -6,12 +6,8 @@ using UnityEngine.SceneManagement;
 public class levelSelect : MonoBehaviour
 {
     public int level;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
+    //when the player clicks on a level it opens the corresponding scene
     public void OpenScene()
     {
         SceneManager.LoadScene("Level_" + level.ToString());

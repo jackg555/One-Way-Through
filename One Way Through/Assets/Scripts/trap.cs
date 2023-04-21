@@ -12,6 +12,7 @@ public class trap : MonoBehaviour
         gameOver = GameObject.FindGameObjectWithTag("Canvas").GetComponent<gameUI>();
     }
 
+    //calls "gameOver" function in the "gameUI" script when the player comes in contact with the trap
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && !hasRun)

@@ -6,6 +6,7 @@ public class bridges : MonoBehaviour
 {
     public GameObject bridge;
 
+    //when the ball comes in contact with the bridges button it opens the bridge
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))

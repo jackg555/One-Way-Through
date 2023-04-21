@@ -7,13 +7,7 @@ public class tiltBoard : MonoBehaviour
     public float tiltSpeed = 4.0f;
     public float tiltAngle = 25.0f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    //tilts the board when the user uses the arrow keys or "wasd"
     void Update()
     {
         float vRotation = Input.GetAxis("Vertical") * tiltAngle;

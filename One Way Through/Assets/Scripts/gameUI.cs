@@ -14,15 +14,15 @@ public class gameUI : MonoBehaviour
     public GameObject displayMessage = null;
     public GameObject levelTitle;
 
-    // Start is called before the first frame update
+    //deletes the message on screen after 10 seconds
     void Start()
     {
         Destroy(displayMessage, 10);
     }
 
-    // Update is called once per frame
     void Update()
     {
+        //controls pause menu when escape key is pressed
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (gameIsPaused)
@@ -36,6 +36,7 @@ public class gameUI : MonoBehaviour
         }
     }
 
+    //resumes the game
     public void Resume()
     {
         pauseMenuUi.SetActive(false);
@@ -46,6 +47,7 @@ public class gameUI : MonoBehaviour
         gameIsPaused = false;
     }
 
+    //pauses the game
     public void Paused()
     {
         pauseMenuUi.SetActive(true);
@@ -56,6 +58,7 @@ public class gameUI : MonoBehaviour
         gameIsPaused = true;
     }
 
+    //restarts the game
     public void RestartGame()
     {
         Time.timeScale = 1f;
@@ -63,6 +66,7 @@ public class gameUI : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    //loads the main menu
     public void LoadMenu()
     {
         Time.timeScale = 1f;
@@ -70,6 +74,7 @@ public class gameUI : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    //displays gameover screen
     public void GameOver()
     {
         gameOverUi.SetActive(true);
@@ -80,6 +85,7 @@ public class gameUI : MonoBehaviour
         gameIsPaused = true;
     }
 
+    //displays level complete screen
     public void LevelComplete()
     {
         levelCompleteUi.SetActive(true);
@@ -89,6 +95,8 @@ public class gameUI : MonoBehaviour
         Time.timeScale = 0f;
         gameIsPaused = true;
     }
+
+    //changes scene to the next level
     public void NextLevel()
     {
         Time.timeScale = 1f;
