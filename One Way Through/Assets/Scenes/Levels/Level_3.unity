@@ -530,10 +530,10 @@ RectTransform:
   m_Father: {fileID: 239349262}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 463.0999, y: 217}
-  m_SizeDelta: {x: 53.3004, y: 59.6078}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -53, y: -53}
+  m_SizeDelta: {x: 53.300415, y: 59.607788}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &137240697
 MonoBehaviour:
@@ -721,7 +721,7 @@ GameObject:
   - component: {fileID: 173081661}
   - component: {fileID: 173081660}
   m_Layer: 0
-  m_Name: RedDoor1OpenRight
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2325,10 +2325,10 @@ RectTransform:
   m_Father: {fileID: 239349262}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 220}
-  m_SizeDelta: {x: -888.6052, y: -465.3959}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -35}
+  m_SizeDelta: {x: 163.39478, y: 44.604095}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &629274216
 MonoBehaviour:
@@ -3000,7 +3000,7 @@ GameObject:
   - component: {fileID: 703514437}
   - component: {fileID: 703514436}
   m_Layer: 0
-  m_Name: BlueDoor2OpenRight
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4127,7 +4127,7 @@ GameObject:
   - component: {fileID: 950738334}
   - component: {fileID: 950738333}
   m_Layer: 0
-  m_Name: BlueDoor2OpenLeft
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4674,7 +4674,7 @@ GameObject:
   - component: {fileID: 1019563968}
   - component: {fileID: 1019563967}
   m_Layer: 0
-  m_Name: RedDoor2OpenLeft
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4944,7 +4944,7 @@ GameObject:
   - component: {fileID: 1057997250}
   - component: {fileID: 1057997249}
   m_Layer: 0
-  m_Name: BlueDoor1OpenLeft
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5687,10 +5687,10 @@ RectTransform:
   m_Father: {fileID: 239349262}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -453, y: 212.88428}
-  m_SizeDelta: {x: 62.7079, y: 67.8392}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 53, y: -53}
+  m_SizeDelta: {x: 62.707886, y: 67.8392}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1256958521
 MonoBehaviour:
@@ -5799,7 +5799,7 @@ GameObject:
   - component: {fileID: 1284468996}
   - component: {fileID: 1284468995}
   m_Layer: 0
-  m_Name: RedDoor2OpenRight
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6028,7 +6028,7 @@ GameObject:
   - component: {fileID: 1357816632}
   - component: {fileID: 1357816631}
   m_Layer: 0
-  m_Name: RedDoor1OpenLeft
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7162,7 +7162,7 @@ GameObject:
   - component: {fileID: 1859122034}
   - component: {fileID: 1859122033}
   m_Layer: 0
-  m_Name: BlueDoor1OpenRight
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

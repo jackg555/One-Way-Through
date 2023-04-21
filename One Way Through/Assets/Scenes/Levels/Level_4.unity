@@ -533,10 +533,10 @@ RectTransform:
   m_Father: {fileID: 239349262}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 463.0999, y: 217}
-  m_SizeDelta: {x: 53.3004, y: 59.6078}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -53, y: -53}
+  m_SizeDelta: {x: 53.300415, y: 59.607788}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &137240697
 MonoBehaviour:
@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 173081661}
   - component: {fileID: 173081660}
   m_Layer: 0
-  m_Name: RedDoor2OpenRight
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1130,39 +1130,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 272050347}
   m_CullTransparentMesh: 1
---- !u!1 &292441748
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 292441749}
-  m_Layer: 0
-  m_Name: Portals
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &292441749
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 292441748}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 376890356}
-  - {fileID: 336228368}
-  m_Father: {fileID: 2139133758}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &321403227
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,12 +1255,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336228367}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.46100026, y: 0.9460445, z: 0.013000009}
-  m_LocalScale: {x: 0.06581183, y: 2.467942, z: 0.09871775}
+  m_LocalPosition: {x: 0.46100023, y: 0.9460445, z: 0.013000008}
+  m_LocalScale: {x: 0.06581183, y: 2.467942, z: 0.09871774}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2134641840}
-  m_Father: {fileID: 292441749}
+  m_Father: {fileID: 1825489670}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &336228369
@@ -1642,6 +1609,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351536367}
   m_CullTransparentMesh: 1
+--- !u!1 &364891716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 364891717}
+  m_Layer: 0
+  m_Name: OuterWalls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &364891717
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364891716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 534937765}
+  - {fileID: 828333373}
+  - {fileID: 1186267082}
+  - {fileID: 456627459}
+  - {fileID: 1824739772}
+  m_Father: {fileID: 781193343}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &376890355
 GameObject:
   m_ObjectHideFlags: 0
@@ -1670,12 +1673,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 376890355}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.46100026, y: 0.9460445, z: -0.1829569}
-  m_LocalScale: {x: 0.06581183, y: 2.467942, z: 0.09871775}
+  m_LocalPosition: {x: 0.46100023, y: 0.9460445, z: -0.18295689}
+  m_LocalScale: {x: 0.06581183, y: 2.467942, z: 0.09871774}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1687993093}
-  m_Father: {fileID: 292441749}
+  m_Father: {fileID: 1825489670}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &376890357
@@ -2112,7 +2115,7 @@ Transform:
   m_LocalScale: {x: 0.04935888, y: 2.8792658, z: 0.3743316}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1898125246}
+  m_Father: {fileID: 364891717}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &456627460
@@ -2243,7 +2246,7 @@ Transform:
   m_LocalScale: {x: 0.049358856, y: 2.8792658, z: 0.63712424}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1898125246}
+  m_Father: {fileID: 364891717}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &534937766
@@ -2494,10 +2497,10 @@ RectTransform:
   m_Father: {fileID: 239349262}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 220}
-  m_SizeDelta: {x: -888.6052, y: -465.3959}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -35}
+  m_SizeDelta: {x: 163.39478, y: 44.604095}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &629274216
 MonoBehaviour:
@@ -3267,7 +3270,7 @@ GameObject:
   - component: {fileID: 703514437}
   - component: {fileID: 703514436}
   m_Layer: 0
-  m_Name: BlueDoor2OpenRight
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3677,9 +3680,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1855323264}
-  - {fileID: 1898125246}
+  - {fileID: 364891717}
   - {fileID: 1517327308}
-  - {fileID: 2139133758}
+  - {fileID: 1866794637}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3744,7 +3747,7 @@ Transform:
   m_LocalScale: {x: 0.049358856, y: 2.8792658, z: 0.986691}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1898125246}
+  m_Father: {fileID: 364891717}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &828333374
@@ -3974,7 +3977,7 @@ Transform:
   m_Children:
   - {fileID: 1902433872}
   - {fileID: 321403228}
-  m_Father: {fileID: 2139133758}
+  m_Father: {fileID: 1866794637}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &950738331
@@ -3990,7 +3993,7 @@ GameObject:
   - component: {fileID: 950738334}
   - component: {fileID: 950738333}
   m_Layer: 0
-  m_Name: BlueDoor2OpenLeft
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4537,7 +4540,7 @@ GameObject:
   - component: {fileID: 1019563968}
   - component: {fileID: 1019563967}
   m_Layer: 0
-  m_Name: RedDoor1OpenTop
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4807,7 +4810,7 @@ GameObject:
   - component: {fileID: 1057997250}
   - component: {fileID: 1057997249}
   m_Layer: 0
-  m_Name: BlueDoor1OpenTop
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5087,8 +5090,8 @@ Transform:
   - {fileID: 1962845944}
   - {fileID: 2045255945}
   - {fileID: 524795989}
-  m_Father: {fileID: 2139133758}
-  m_RootOrder: 3
+  m_Father: {fileID: 1423236329}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1168041693
 GameObject:
@@ -5353,7 +5356,7 @@ Transform:
   m_LocalScale: {x: 0.04935888, y: 2.8792658, z: 0.24021566}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1898125246}
+  m_Father: {fileID: 364891717}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &1186267083
@@ -5685,10 +5688,10 @@ RectTransform:
   m_Father: {fileID: 239349262}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -453, y: 212.88428}
-  m_SizeDelta: {x: 62.7079, y: 67.8392}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 53, y: -53}
+  m_SizeDelta: {x: 62.707886, y: 67.8392}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1256958521
 MonoBehaviour:
@@ -5797,7 +5800,7 @@ GameObject:
   - component: {fileID: 1284468996}
   - component: {fileID: 1284468995}
   m_Layer: 0
-  m_Name: RedDoor1OpenBottom
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6070,7 +6073,7 @@ GameObject:
   - component: {fileID: 1357816632}
   - component: {fileID: 1357816631}
   m_Layer: 0
-  m_Name: RedDoor2OpenLeft
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6400,6 +6403,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door1: {fileID: 1208311988}
   door2: {fileID: 1090886459}
+--- !u!1 &1423236328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1423236329}
+  m_Layer: 0
+  m_Name: Doors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1423236329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423236328}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2049306165}
+  - {fileID: 1106982965}
+  m_Father: {fileID: 1866794637}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1477184257
 GameObject:
   m_ObjectHideFlags: 0
@@ -6673,7 +6709,7 @@ Transform:
   m_LocalScale: {x: 0.10694419, y: 0.41132364, z: 0.10694419}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2139133758}
+  m_Father: {fileID: 1866794637}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1576457488
@@ -6944,7 +6980,7 @@ Transform:
   m_LocalScale: {x: 0.04935888, y: 2.8792658, z: 1.0005622}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1898125246}
+  m_Father: {fileID: 364891717}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!65 &1824739773
@@ -7010,6 +7046,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824739771}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1825489669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1825489670}
+  m_Layer: 0
+  m_Name: Portals
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1825489670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825489669}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 376890356}
+  - {fileID: 336228368}
+  m_Father: {fileID: 1866794637}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1855323258
 GameObject:
   m_ObjectHideFlags: 0
@@ -7137,7 +7206,7 @@ GameObject:
   - component: {fileID: 1859122034}
   - component: {fileID: 1859122033}
   m_Layer: 0
-  m_Name: BlueDoor1OpenBottom
+  m_Name: DoorOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7221,6 +7290,41 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859122031}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1866794636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1866794637}
+  m_Layer: 0
+  m_Name: GameObjects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1866794637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866794636}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1576457487}
+  - {fileID: 919818004}
+  - {fileID: 1423236329}
+  - {fileID: 1825489670}
+  m_Father: {fileID: 781193343}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1882816878
 GameObject:
   m_ObjectHideFlags: 0
@@ -7355,42 +7459,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882816878}
   m_CullTransparentMesh: 1
---- !u!1 &1898125245
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1898125246}
-  m_Layer: 0
-  m_Name: OuterWalls
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1898125246
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898125245}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 534937765}
-  - {fileID: 828333373}
-  - {fileID: 1186267082}
-  - {fileID: 456627459}
-  - {fileID: 1824739772}
-  m_Father: {fileID: 781193343}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1902433871 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
@@ -7836,8 +7904,8 @@ Transform:
   - {fileID: 1421281832}
   - {fileID: 1477184258}
   - {fileID: 126292886}
-  m_Father: {fileID: 2139133758}
-  m_RootOrder: 2
+  m_Father: {fileID: 1423236329}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2134641839
 GameObject:
@@ -7869,42 +7937,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 336228368}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2139133757
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2139133758}
-  m_Layer: 0
-  m_Name: GameObjects
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2139133758
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2139133757}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1576457487}
-  - {fileID: 919818004}
-  - {fileID: 2049306165}
-  - {fileID: 1106982965}
-  - {fileID: 292441749}
-  m_Father: {fileID: 781193343}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2141979086
 GameObject:
@@ -8018,10 +8050,10 @@ RectTransform:
   m_Father: {fileID: 239349262}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 372, y: -193}
-  m_SizeDelta: {x: 220.8008, y: 68.8507}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -145, y: 73}
+  m_SizeDelta: {x: 220.80078, y: 68.85071}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2142240123
 MonoBehaviour:
