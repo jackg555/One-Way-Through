@@ -17,7 +17,7 @@ public class gameUI : MonoBehaviour
     //deletes the message on screen after 10 seconds
     void Start()
     {
-        Destroy(displayMessage, 4);
+        Destroy(displayMessage, 10);
     }
 
     void Update()
