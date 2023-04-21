@@ -17,7 +17,7 @@ public class gameUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Destroy(displayMessage, 4);
+        Destroy(displayMessage, 10);
     }
 
     // Update is called once per frame

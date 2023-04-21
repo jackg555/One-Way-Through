@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 170560, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_Name
-      value: key
+      value: Key
       objectReference: {fileID: 0}
     - target: {fileID: 462124, guid: cc5de5e674870ca479a40105f80555ad, type: 3}
       propertyPath: m_RootOrder
@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 100639761}
   - component: {fileID: 100639760}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Wall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -441,7 +441,7 @@ GameObject:
   - component: {fileID: 110506600}
   - component: {fileID: 110506599}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: Wall4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1379,7 +1379,7 @@ GameObject:
   - component: {fileID: 321403230}
   - component: {fileID: 321403229}
   m_Layer: 0
-  m_Name: lock
+  m_Name: Lock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1510,7 +1510,7 @@ GameObject:
   - component: {fileID: 368641183}
   - component: {fileID: 368641182}
   m_Layer: 0
-  m_Name: BlueDoor1OpenLeft
+  m_Name: BlueDoor1OpenTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1798,7 +1798,7 @@ GameObject:
   - component: {fileID: 455642912}
   - component: {fileID: 455642911}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: Wall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1895,7 +1895,7 @@ GameObject:
   - component: {fileID: 465978103}
   - component: {fileID: 465978102}
   m_Layer: 0
-  m_Name: BlueDoor1OpenRight
+  m_Name: BlueDoor1OpenBottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3357,7 +3357,7 @@ GameObject:
   - component: {fileID: 852344107}
   - component: {fileID: 852344106}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Wall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4639,7 +4639,7 @@ GameObject:
   - component: {fileID: 1340181135}
   - component: {fileID: 1340181134}
   m_Layer: 0
-  m_Name: Cube (10)
+  m_Name: Wall6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6121,7 +6121,7 @@ GameObject:
   - component: {fileID: 2021865978}
   - component: {fileID: 2021865977}
   m_Layer: 0
-  m_Name: Cube (8)
+  m_Name: Wall5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
